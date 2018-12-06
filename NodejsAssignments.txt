@@ -1,0 +1,59 @@
+1. Create a program that adds 2 numbers.
+>	 var a=10;
+ 	 var b=20;
+ 	 function add(a, b)
+		{ 
+    			var c = a+b;
+    			return c;
+		}
+	 console.log(add(a,b));
+
+2. Create a program that finds the highest number out of 3 numbers.
+> 	var x=20;
+	var y=35;
+	var z=10;
+	console.log("Highest Number is :");
+	if(x>y&& x>z)
+		{
+  			console.log("x");
+		}
+	if(y>x&&y>z)
+		{
+    			console.log("y");
+		}
+	if(z>x&&z>y)
+		{
+    			console.log("z");
+		}
+
+3. Create a program to find the factorial of a number.
+>	factorial = function()
+		{
+    			var num = 5;
+    			var fact = 1;
+    			while(num!=1)
+
+    				{
+        				fact=fact*num;
+        				num--;
+    				}
+    			console.log("factorial is :  " +fact);
+		}
+	factorial();
+
+4. Create a program to find if the number is prime or not.
+>	findPrime = function()
+		{
+	    		var num = 3;
+    			for(i=2;i<num;i++)
+    				{
+        				if(num%i==0)
+						{
+            						console.log("It is not a prime number");
+            						process.exit(-1);
+
+        					}
+    				}
+    			console.log("prime number");
+		}
+	findPrime();
